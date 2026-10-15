@@ -1,6 +1,5 @@
 package com.rahmat.project1.common.utils.language
 
-import android.app.Activity
 import android.content.Context
 import android.content.res.Configuration
 import android.os.LocaleList
@@ -12,13 +11,10 @@ import java.util.Locale
 class LanguageManager(private val context: Context) {
     private val prefs = context.getSharedPreferences("language_prefs", Context.MODE_PRIVATE)
 
-    fun setLanguage(languageCode: String, activity: Activity? = null) {
+    fun setLanguage(languageCode: String) {
         val normalizedCode = normalizeLanguageCode(languageCode)
         prefs.edit().putString("selected_language", normalizedCode).apply()
-
         applyLanguage(context, normalizedCode)
-
-        activity?.recreate()
     }
 
     fun getLanguage(): String {

@@ -1,5 +1,7 @@
 package com.rahmat.project1.ui.features.setting.components
 
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -26,6 +28,7 @@ import androidx.compose.material3.SheetState
 import androidx.compose.material3.Text
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -126,17 +129,26 @@ private fun LanguageOptionCard(
     isSelected: Boolean,
     onClick: () -> Unit
 ) {
-    val borderColor = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outlineVariant
-    val containerColor = if (isSelected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.25f) else MaterialTheme.colorScheme.surface
+    val animatedBorderColor by animateColorAsState(
+        targetValue = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outlineVariant,
+        animationSpec = tween(durationMillis = 150),
+        label = "LanguageBorderColorAnimation"
+    )
+
+    val animatedContainerColor by animateColorAsState(
+        targetValue = if (isSelected) MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.25f) else MaterialTheme.colorScheme.surface,
+        animationSpec = tween(durationMillis = 150),
+        label = "LanguageContainerColorAnimation"
+    )
 
     Box(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(AppDimens.radiusButton))
-            .background(containerColor)
+            .background(animatedContainerColor)
             .border(
                 width = if (isSelected) 2.dp else 1.dp,
-                color = borderColor,
+                color = animatedBorderColor,
                 shape = RoundedCornerShape(AppDimens.radiusButton)
             )
             .clickable { onClick() }

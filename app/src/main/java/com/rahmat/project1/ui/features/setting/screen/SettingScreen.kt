@@ -40,7 +40,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import android.app.Activity
 import androidx.activity.ComponentActivity
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -81,7 +80,11 @@ fun SettingScreen(
 ) {
     val context = LocalContext.current
     val activity = context as? ComponentActivity
-    val languageViewModel: LanguageViewModel = viewModel()
+    val languageViewModel: LanguageViewModel = if (activity != null) {
+        viewModel(viewModelStoreOwner = activity)
+    } else {
+        viewModel()
+    }
     val themeViewModel: ThemeViewModel = if (activity != null) {
         viewModel(viewModelStoreOwner = activity)
     } else {
@@ -104,7 +107,7 @@ fun SettingScreen(
         LanguageSelectionBottomSheet(
             selectedLanguageCode = languageViewModel.currentLanguageCode,
             onLanguageSelected = { option ->
-                languageViewModel.selectLanguage(option.code, context as? Activity)
+                languageViewModel.selectLanguage(option.code, activity)
                 onLanguageClick()
             },
             onDismissRequest = {

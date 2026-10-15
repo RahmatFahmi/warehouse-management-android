@@ -2,6 +2,8 @@ package com.rahmat.project1.common.utils.language
 
 import android.app.Activity
 import android.app.Application
+import android.os.Handler
+import android.os.Looper
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -19,6 +21,12 @@ class LanguageViewModel(application: Application) : AndroidViewModel(application
     fun selectLanguage(languageCode: String, activity: Activity? = null) {
         val normalizedCode = LanguageManager.normalizeLanguageCode(languageCode)
         currentLanguageCode = normalizedCode
-        languageManager.setLanguage(normalizedCode, activity)
+        languageManager.setLanguage(normalizedCode)
+
+        activity?.let { act ->
+            Handler(Looper.getMainLooper()).postDelayed({
+                act.recreate()
+            }, 180)
+        }
     }
 }
