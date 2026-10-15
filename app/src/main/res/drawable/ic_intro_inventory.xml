@@ -1,0 +1,65 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100.0"
+    android:viewportHeight="100.0">
+
+    <!-- Barcode Base Label -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:strokeColor="#E2E8F0"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:pathData="M40,65 L64,77 L40,89 L16,77 Z"/>
+
+    <!-- Barcode Lines -->
+    <path
+        android:strokeColor="#0F172A"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M30,70 L54,82 M26,72 L50,84 M34,68 L58,80 M38,66 L62,78"/>
+
+    <!-- Scanner Handle - Shadow -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,45 L66,39 L66,63 L54,69 Z"/>
+
+    <!-- Scanner Handle - Front -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M46,41 L54,45 L54,69 L46,65 Z"/>
+
+    <!-- Trigger Button (Orange) -->
+    <path
+        android:fillColor="#FF5B00"
+        android:pathData="M48,44 L51,45.5 L51,50.5 L48,49 Z"/>
+
+    <!-- Scanner Head - Shadow -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M48,38 L72,26 L72,36 L48,48 Z"/>
+
+    <!-- Scanner Head - Highlight -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M36,32 L48,38 L72,26 L60,20 Z"/>
+
+    <!-- Scanner Mouth -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M36,32 L48,38 L48,48 L36,42 Z"/>
+
+    <!-- Laser Beam (Semi-transparent Red) -->
+    <path
+        android:fillColor="#EF4444"
+        android:fillAlpha="0.2"
+        android:pathData="M40,39 L44,41 L56,67 L24,83 Z"/>
+
+    <!-- Laser Target Line -->
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M24,83 L56,67"/>
+
+</vector>

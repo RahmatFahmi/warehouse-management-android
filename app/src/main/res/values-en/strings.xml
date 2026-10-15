@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">FlowShip</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">FlowShip</string>
+    <string name="login_subtitle">Sign in to Your Account</string>
+    <string name="email_label">Email</string>
+    <string name="login_email_placeholder">operator@flowship.com</string>
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="password_label">Password</string>
+    <string name="password_placeholder">••••••••</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_no_account_prefix">Don\'t have an account? </string>
+    <string name="login_register_link">Register</string>
+
+    <!-- Login ViewModel Errors -->
+    <string name="error_email_password_empty">Email and password cannot be empty</string>
+    <string name="error_invalid_credentials">Incorrect email or password.</string>
+    <string name="error_email_not_confirmed">Your email is not confirmed yet. Please check your email inbox.</string>
+    <string name="error_network_issue">Internet connection issue or slow. Please try again.</string>
+    <string name="error_server_connection">Failed to connect to server. Please try again later.</string>
+
+    <!-- Register Screen -->
+    <string name="register_subtitle">Register Your Company</string>
+    <string name="register_description">Start optimizing your warehouse management today.</string>
+    <string name="company_name_label">Company Name</string>
+    <string name="company_name_placeholder">e.g. Logistik Jaya Co.</string>
+    <string name="error_company_name_empty">Company name cannot be empty</string>
+    <string name="owner_name_label">Owner\'s Full Name</string>
+    <string name="owner_name_placeholder">e.g. John Doe</string>
+    <string name="error_owner_name_empty">Owner\'s name cannot be empty</string>
+    <string name="company_email_label">Company Email</string>
+    <string name="register_email_placeholder">email@company.com</string>
+    <string name="error_email_invalid_format">Invalid email format</string>
+    <string name="register_password_label">Password</string>
+    <string name="error_password_min_length">Password must be at least 6 characters</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="error_password_mismatch">Password confirmation does not match</string>
+    <string name="terms_agree_prefix">I agree to </string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="register_button">Register Now</string>
+    <string name="register_already_have_account_prefix">Already have an account? </string>
+    <string name="register_login_link">Sign in here</string>
+
+    <!-- Register Success Dialog -->
+    <string name="register_success_title">Registration Successful!</string>
+    <string name="register_success_message">Your company account has been registered successfully. Please sign in to access the FlowShip app.</string>
+    <string name="register_success_button">Continue to Login</string>
+
+    <!-- Terms and Conditions Dialog -->
+    <string name="terms_and_conditions_title">Terms &amp; Conditions</string>
+    <string name="terms_intro">Welcome to FlowShip. By using our services, you agree to the following terms:</string>
+    <string name="terms_section_1_title">1. Service Usage</string>
+    <string name="terms_section_1_content">You are responsible for maintaining the confidentiality of your account and password. This service must only be used for legitimate logistics management purposes.</string>
+    <string name="terms_section_2_title">2. Company Data</string>
+    <string name="terms_section_2_content">We are committed to protecting the security of your company data. Your data will not be shared with third parties without explicit permission, unless required by law.</string>
+    <string name="terms_section_3_title">3. Limitation of Liability</string>
+    <string name="terms_section_3_content">FlowShip is not liable for indirect damages arising from the use of or inability to use our services.</string>
+    <string name="terms_section_4_title">4. Changes to Terms</string>
+    <string name="terms_section_4_content">We reserve the right to update these terms and conditions at any time. Changes will take effect immediately upon being published in the app.</string>
+    <string name="terms_accept_button">I Understand &amp; Agree</string>
+
+    <!-- Register ViewModel Errors -->
+    <string name="error_all_fields_required">All fields are required</string>
+    <string name="error_email_already_registered">This email is already registered. Please use a different email or sign in.</string>
+    <string name="error_email_invalid_format_detail">Invalid email format. Please check your email entry.</string>
+    <string name="error_register_failed">Registration failed. Please try again later.</string>
+
+    <!-- Settings Screen -->
+    <string name="setting_title">Settings</string>
+    <string name="setting_edit_profile">Edit Profile</string>
+    <string name="setting_account_security_section">Account &amp; Security</string>
+    <string name="setting_password_security">Password &amp; Security</string>
+    <string name="setting_password_security_sub">Manage your account security</string>
+    <string name="setting_notifications">Notifications</string>
+    <string name="setting_notifications_sub">Manage incoming notifications</string>
+    <string name="setting_system_preferences_section">System &amp; Preferences</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_language_sub">Indonesian</string>
+    <string name="setting_theme">App Theme</string>
+    <string name="setting_theme_sub">Light</string>
+    <string name="setting_support_section">Support</string>
+    <string name="setting_help_center">Help Center</string>
+    <string name="setting_help_center_sub">FAQ &amp; Contact Support</string>
+    <string name="setting_about">About App</string>
+    <string name="setting_about_sub">Version 1.0.0 (Alpha)</string>
+    <string name="setting_logout">Sign Out</string>
+
+    <!-- Language Selection -->
+    <string name="select_language_title">Select Language</string>
+    <string name="select_language_subtitle">Choose your preferred app language</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    <string name="language_english">English</string>
+    <string name="language_indonesian_sub">Indonesian</string>
+    <string name="language_english_sub">United Kingdom / English</string>
+
+    <!-- Theme Selection -->
+    <string name="select_theme_title">Select App Theme</string>
+    <string name="select_theme_subtitle">Customize the app appearance for your visual comfort</string>
+    <string name="theme_system_title">System Default</string>
+    <string name="theme_system_sub">Automatically adapt to your device settings</string>
+    <string name="theme_light_title">Light Mode</string>
+    <string name="theme_light_sub">Clean and bright appearance for daytime</string>
+    <string name="theme_dark_title">Dark Mode</string>
+    <string name="theme_dark_sub">Sleek dark interface easy on the eyes at night</string>
+
+    <!-- Notification Settings -->
+    <string name="notification_settings_title">Notification Settings</string>
+    <string name="notification_settings_subtitle">Manage the types of notifications you want to receive on this device</string>
+    <string name="notification_master_title">Allow All Notifications</string>
+    <string name="notification_master_sub">Receive messages, alerts, and important updates</string>
+    <string name="notification_orders_title">Orders &amp; Shipments</string>
+    <string name="notification_orders_sub">Delivery status and parcel tracking updates</string>
+    <string name="notification_inventory_title">Inventory &amp; Stock</string>
+    <string name="notification_inventory_sub">Low stock warnings and stock take schedules</string>
+    <string name="notification_team_title">Team &amp; Warehouse Activity</string>
+    <string name="notification_team_sub">Staff additions, roles, and operational activity</string>
+    <string name="notification_system_title">System &amp; Security</string>
+    <string name="notification_system_sub">Login alerts, security warnings, and app maintenance</string>
+    <string name="notification_save_button">Save Preferences</string>
+
+    <!-- Admin Bottom Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_team">Team</string>
+    <string name="nav_master_data">Master Data</string>
+    <string name="nav_setting">Settings</string>
+
+    <!-- Team Management Screen -->
+    <string name="team_management_title">Manage Team</string>
+    <string name="team_management_subtitle">Manage access, roles, and warehouse assignments for your staff.</string>
+    <string name="team_management_search_placeholder">Search staff name&#8230;</string>
+    <string name="team_management_filter_all">All</string>
+    <string name="team_management_filter_manager">Manager</string>
+    <string name="team_management_filter_operator">Operator</string>
+    <string name="team_management_empty_title">No staff added yet</string>
+    <string name="team_management_empty_desc">Staff registered to the organization will appear here.</string>
+    <string name="team_management_add_staff_button">Add New Staff</string>
+    <string name="team_management_assign_staff_button">Assign New Staff</string>
+    <string name="team_management_error_refresh_desc">Please refresh again</string>
+    <string name="team_management_retry_button">Try again</string>
+    <string name="team_management_search_empty_title">No matching staff found</string>
+    <string name="team_management_search_empty_desc">Try changing search keywords or role filters.</string>
+    <string name="team_management_staff_fallback_name">Warehouse Staff</string>
+    <string name="team_management_role_manager">Manager</string>
+    <string name="team_management_role_operational">Operational</string>
+    <string name="team_management_status_active">On Duty</string>
+    <string name="team_management_status_inactive">Inactive</string>
+    <string name="team_management_warehouse_assignment_label">Assigned Warehouse: </string>
+    <string name="team_management_warehouse_fallback">Main Warehouse</string>
+    <string name="team_management_error_network">Failed to connect to server. Check your internet connection.</string>
+    <string name="team_management_error_session_expired">Your session has expired. Please log in again.</string>
+    <string name="team_management_error_fetch_stream">Failed to load team data. Please try again.</string>
+
+    <!-- Add Staff Screen -->
+    <string name="add_staff_title">Add Warehouse Staff</string>
+    <string name="add_staff_subtitle">Create an account for staff and assign them to the appropriate warehouse.</string>
+    <string name="add_staff_section_account">Account Information</string>
+    <string name="add_staff_full_name_label">Full Name</string>
+    <string name="add_staff_full_name_placeholder">e.g. Andi Prasetyo</string>
+    <string name="add_staff_email_label">Email</string>
+    <string name="add_staff_email_placeholder">e.g. andi@flowship.id</string>
+    <string name="add_staff_password_label">Password</string>
+    <string name="add_staff_section_warehouse">Warehouse Assignment</string>
+    <string name="add_staff_warehouse_label">Warehouse</string>
+    <string name="add_staff_warehouse_placeholder">Select Hub / Warehouse</string>
+    <string name="add_staff_section_role">Role</string>
+    <string name="add_staff_role_operational_title">Operational</string>
+    <string name="add_staff_role_operational_desc">Field staff</string>
+    <string name="add_staff_role_manager_title">Manager</string>
+    <string name="add_staff_role_manager_desc">Hub supervisor</string>
+    <string name="add_staff_status_title">Staff status</string>
+    <string name="add_staff_status_active">On duty</string>
+    <string name="add_staff_status_inactive">Inactive</string>
+    <string name="add_staff_submit_button">Assign New Staff</string>
+    <string name="add_staff_success_title">Staff Added Successfully!</string>
+    <string name="add_staff_success_message">The new staff account has been created and added to your team.</string>
+    <string name="add_staff_success_button">Back to Team Management</string>
+    <string name="add_staff_error_failed">Failed to add staff</string>
+
+    <!-- Content Descriptions & Misc Icons -->
+    <string name="cd_back">Back</string>
+    <string name="cd_logo">FlowShip Logo</string>
+    <string name="cd_notifications">Notifications</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_option">Option</string>
+    <string name="cd_invite_staff">Invite Staff</string>
+    <string name="cd_selected">Selected</string>
+
+    <!-- App Exit Dialog -->
+    <string name="dialog_exit_title">Exit Application</string>
+    <string name="dialog_exit_message">Are you sure you want to exit FlowShip?</string>
+    <string name="dialog_exit_confirm">Yes, Exit</string>
+    <string name="dialog_exit_cancel">Cancel</string>
+</resources>

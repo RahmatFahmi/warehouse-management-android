@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100.0"
+    android:viewportHeight="100.0">
+
+    <!-- Trailer Top -->
+    <path
+        android:fillColor="#FF5B00"
+        android:pathData="M20,45 L55,25 L85,40 L50,60 Z"/>
+
+    <!-- Trailer Side -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M20,45 L20,70 L50,85 L50,60 Z"/>
+
+    <!-- Cab Side -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M50,60 L75,72 L75,87 L50,75 Z"/>
+
+    <!-- Cab Top -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M50,60 L60,55 L85,68 L75,72 Z"/>
+
+    <!-- Cab Front -->
+    <path
+        android:fillColor="#334155"
+        android:pathData="M75,72 L85,68 L85,83 L75,87 Z"/>
+
+    <!-- Wheels -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M31,80a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M61,83a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+
+    <!-- Speed Lines -->
+    <path
+        android:strokeColor="#FF5B00"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M5,55 L15,55 M2,62 L12,62 M8,69 L18,69"/>
+
+</vector>

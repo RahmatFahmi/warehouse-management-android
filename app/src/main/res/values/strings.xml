@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">FlowShip</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">FlowShip</string>
+    <string name="login_subtitle">Masuk ke Akun Anda</string>
+    <string name="email_label">Email</string>
+    <string name="login_email_placeholder">operator@flowship.com</string>
+    <string name="error_email_empty">Email tidak boleh kosong</string>
+    <string name="password_label">Password</string>
+    <string name="password_placeholder">••••••••</string>
+    <string name="login_forgot_password">Lupa Password?</string>
+    <string name="error_password_empty">Password tidak boleh kosong</string>
+    <string name="login_button">Masuk / Login</string>
+    <string name="login_no_account_prefix">Belum punya akun? </string>
+    <string name="login_register_link">Registrasi</string>
+
+    <!-- Login ViewModel Errors -->
+    <string name="error_email_password_empty">Email dan password tidak boleh kosong</string>
+    <string name="error_invalid_credentials">Email atau kata sandi salah.</string>
+    <string name="error_email_not_confirmed">Email Anda belum dikonfirmasi. Silakan periksa inbox email Anda.</string>
+    <string name="error_network_issue">Koneksi internet bermasalah atau lambat. Silakan coba lagi.</string>
+    <string name="error_server_connection">Gagal terhubung ke server. Silakan coba beberapa saat lagi.</string>
+
+    <!-- Register Screen -->
+    <string name="register_subtitle">Daftarkan Perusahaan Anda</string>
+    <string name="register_description">Mulai optimalkan manajemen gudang Anda hari ini.</string>
+    <string name="company_name_label">Nama Perusahaan</string>
+    <string name="company_name_placeholder">cth. PT Logistik Jaya</string>
+    <string name="error_company_name_empty">Nama perusahaan tidak boleh kosong</string>
+    <string name="owner_name_label">Nama Lengkap Pemilik</string>
+    <string name="owner_name_placeholder">cth. Budi Santoso</string>
+    <string name="error_owner_name_empty">Nama pemilik tidak boleh kosong</string>
+    <string name="company_email_label">Email Perusahaan</string>
+    <string name="register_email_placeholder">email@perusahaan.com</string>
+    <string name="error_email_invalid_format">Format email tidak valid</string>
+    <string name="register_password_label">Kata Sandi</string>
+    <string name="error_password_min_length">Password minimal 6 karakter</string>
+    <string name="confirm_password_label">Konfirmasi Kata Sandi</string>
+    <string name="error_password_mismatch">Konfirmasi password tidak cocok</string>
+    <string name="terms_agree_prefix">Saya menyetujui </string>
+    <string name="terms_and_conditions">Syarat &amp; Ketentuan</string>
+    <string name="register_button">Daftar Sekarang</string>
+    <string name="register_already_have_account_prefix">Sudah punya akun? </string>
+    <string name="register_login_link">Login di sini</string>
+
+    <!-- Register Success Dialog -->
+    <string name="register_success_title">Pendaftaran Berhasil!</string>
+    <string name="register_success_message">Akun perusahaan Anda telah berhasil didaftarkan. Silakan login untuk masuk ke aplikasi FlowShip.</string>
+    <string name="register_success_button">Lanjut ke Login</string>
+
+    <!-- Terms and Conditions Dialog -->
+    <string name="terms_and_conditions_title">Syarat &amp; Ketentuan</string>
+    <string name="terms_intro">Selamat datang di FlowShip. Dengan menggunakan layanan kami, Anda menyetujui ketentuan berikut:</string>
+    <string name="terms_section_1_title">1. Penggunaan Layanan</string>
+    <string name="terms_section_1_content">Anda bertanggung jawab untuk menjaga kerahasiaan akun dan kata sandi Anda. Layanan ini hanya boleh digunakan untuk tujuan manajemen logistik yang sah.</string>
+    <string name="terms_section_2_title">2. Data Perusahaan</string>
+    <string name="terms_section_2_content">Kami berkomitmen untuk menjaga keamanan data perusahaan Anda. Data Anda tidak akan dibagikan kepada pihak ketiga tanpa izin eksplisit, kecuali diwajibkan oleh hukum.</string>
+    <string name="terms_section_3_title">3. Batasan Tanggung Jawab</string>
+    <string name="terms_section_3_content">FlowShip tidak bertanggung jawab atas kerugian tidak langsung yang timbul dari penggunaan atau ketidakmampuan menggunakan layanan kami.</string>
+    <string name="terms_section_4_title">4. Perubahan Ketentuan</string>
+    <string name="terms_section_4_content">Kami berhak memperbarui syarat dan ketentuan ini kapan saja. Perubahan akan berlaku segera setelah dipublikasikan di dalam aplikasi.</string>
+    <string name="terms_accept_button">Saya Mengerti &amp; Setuju</string>
+
+    <!-- Register ViewModel Errors -->
+    <string name="error_all_fields_required">Semua field harus diisi</string>
+    <string name="error_email_already_registered">Email ini sudah terdaftar. Silakan gunakan email lain atau login.</string>
+    <string name="error_email_invalid_format_detail">Format email tidak valid. Periksa kembali penulisan email Anda.</string>
+    <string name="error_register_failed">Gagal mendaftar. Silakan coba beberapa saat lagi.</string>
+
+    <!-- Settings Screen -->
+    <string name="setting_title">Pengaturan</string>
+    <string name="setting_edit_profile">Edit Profil</string>
+    <string name="setting_account_security_section">Akun &amp; Keamanan</string>
+    <string name="setting_password_security">Kata Sandi &amp; Keamanan</string>
+    <string name="setting_password_security_sub">Kelola keamanan akun Anda</string>
+    <string name="setting_notifications">Notifikasi</string>
+    <string name="setting_notifications_sub">Atur notifikasi masuk</string>
+    <string name="setting_system_preferences_section">Sistem &amp; Preferensi</string>
+    <string name="setting_language">Bahasa</string>
+    <string name="setting_language_sub">Bahasa Indonesia</string>
+    <string name="setting_theme">Tema Aplikasi</string>
+    <string name="setting_theme_sub">Terang</string>
+    <string name="setting_support_section">Dukungan</string>
+    <string name="setting_help_center">Pusat Bantuan</string>
+    <string name="setting_help_center_sub">FAQ dan Hubungi CS</string>
+    <string name="setting_about">Tentang Aplikasi</string>
+    <string name="setting_about_sub">Versi 1.0.0 (Alpha)</string>
+    <string name="setting_logout">Keluar Akun</string>
+
+    <!-- Language Selection -->
+    <string name="select_language_title">Pilih Bahasa</string>
+    <string name="select_language_subtitle">Pilih bahasa yang ingin digunakan di aplikasi</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    <string name="language_english">English</string>
+    <string name="language_indonesian_sub">Indonesia</string>
+    <string name="language_english_sub">United Kingdom / English</string>
+
+    <!-- Theme Selection -->
+    <string name="select_theme_title">Pilih Tema Aplikasi</string>
+    <string name="select_theme_subtitle">Sesuaikan tampilan aplikasi sesuai kenyamanan mata Anda</string>
+    <string name="theme_system_title">Ikuti Sistem</string>
+    <string name="theme_system_sub">Otomatis menyesuaikan dengan preferensi perangkat</string>
+    <string name="theme_light_title">Mode Terang</string>
+    <string name="theme_light_sub">Tampilan bersih dan cerah untuk siang hari</string>
+    <string name="theme_dark_title">Mode Gelap</string>
+    <string name="theme_dark_sub">Tampilan gelap yang nyaman di mata untuk malam hari</string>
+
+    <!-- Notification Settings -->
+    <string name="notification_settings_title">Pengaturan Notifikasi</string>
+    <string name="notification_settings_subtitle">Kelola jenis notifikasi yang ingin Anda terima di perangkat ini</string>
+    <string name="notification_master_title">Izinkan Semua Notifikasi</string>
+    <string name="notification_master_sub">Terima pesan, peringatan, dan pembaruan penting</string>
+    <string name="notification_orders_title">Pesanan &amp; Pengiriman</string>
+    <string name="notification_orders_sub">Status pengiriman dan pembaruan resi paket</string>
+    <string name="notification_inventory_title">Stok &amp; Inventaris</string>
+    <string name="notification_inventory_sub">Peringatan stok barang menipis dan jadwal opname</string>
+    <string name="notification_team_title">Aktivitas Tim &amp; Gudang</string>
+    <string name="notification_team_sub">Penambahan staf, peran, dan aktivitas operasional</string>
+    <string name="notification_system_title">Sistem &amp; Keamanan</string>
+    <string name="notification_system_sub">Peringatan masuk akun, keamanan, dan pemeliharaan</string>
+    <string name="notification_save_button">Simpan Pengaturan</string>
+
+    <!-- Admin Bottom Navigation -->
+    <string name="nav_dashboard">Beranda</string>
+    <string name="nav_team">Tim</string>
+    <string name="nav_master_data">Master Data</string>
+    <string name="nav_setting">Pengaturan</string>
+
+    <!-- Team Management Screen -->
+    <string name="team_management_title">Kelola Tim</string>
+    <string name="team_management_subtitle">Kelola akses, peran, dan penugasan gudang staf Anda.</string>
+    <string name="team_management_search_placeholder">Cari nama staf&#8230;</string>
+    <string name="team_management_filter_all">Semua</string>
+    <string name="team_management_filter_manager">Manager</string>
+    <string name="team_management_filter_operator">Operator</string>
+    <string name="team_management_empty_title">Belum ada staf ditambahkan</string>
+    <string name="team_management_empty_desc">Staf yang didaftarkan ke organisasi akan muncul di sini.</string>
+    <string name="team_management_add_staff_button">Tambah Staf Baru</string>
+    <string name="team_management_assign_staff_button">Tugaskan Staf Baru</string>
+    <string name="team_management_error_refresh_desc">Silahkan Refresh Ulang</string>
+    <string name="team_management_retry_button">Coba lagi</string>
+    <string name="team_management_search_empty_title">Tidak ada staf yang sesuai</string>
+    <string name="team_management_search_empty_desc">Coba ubah kata kunci pencarian atau filter peran.</string>
+    <string name="team_management_staff_fallback_name">Staf Gudang</string>
+    <string name="team_management_role_manager">Manager</string>
+    <string name="team_management_role_operational">Operational</string>
+    <string name="team_management_status_active">Aktif Bertugas</string>
+    <string name="team_management_status_inactive">Nonaktif</string>
+    <string name="team_management_warehouse_assignment_label">Gudang Penugasan: </string>
+    <string name="team_management_warehouse_fallback">Gudang Utama</string>
+    <string name="team_management_error_network">Gagal terhubung ke server. Periksa koneksi internet Anda.</string>
+    <string name="team_management_error_session_expired">Sesi Anda telah berakhir. Silakan login ulang.</string>
+    <string name="team_management_error_fetch_stream">Gagal memuat data tim. Silakan coba lagi.</string>
+
+    <!-- Add Staff Screen -->
+    <string name="add_staff_title">Tambah Staf Gudang</string>
+    <string name="add_staff_subtitle">Buat akun untuk staf dan tugaskan ke gudang yang sesuai.</string>
+    <string name="add_staff_section_account">Informasi Akun</string>
+    <string name="add_staff_full_name_label">Nama Lengkap</string>
+    <string name="add_staff_full_name_placeholder">Misal: Andi Prasetyo</string>
+    <string name="add_staff_email_label">Email</string>
+    <string name="add_staff_email_placeholder">Misal: andi@flowship.id</string>
+    <string name="add_staff_password_label">Kata Sandi</string>
+    <string name="add_staff_section_warehouse">Penugasan Gudang</string>
+    <string name="add_staff_warehouse_label">Gudang</string>
+    <string name="add_staff_warehouse_placeholder">Pilih Hub / Gudang</string>
+    <string name="add_staff_section_role">Peran</string>
+    <string name="add_staff_role_operational_title">Operational</string>
+    <string name="add_staff_role_operational_desc">Staf lapangan</string>
+    <string name="add_staff_role_manager_title">Manager</string>
+    <string name="add_staff_role_manager_desc">Pengawas hub</string>
+    <string name="add_staff_status_title">Status staf</string>
+    <string name="add_staff_status_active">Aktif bertugas</string>
+    <string name="add_staff_status_inactive">Nonaktif</string>
+    <string name="add_staff_submit_button">Tugaskan Staf Baru</string>
+    <string name="add_staff_success_title">Staf Berhasil Ditambahkan!</string>
+    <string name="add_staff_success_message">Akun staf baru telah berhasil dibuat dan ditambahkan ke dalam tim Anda.</string>
+    <string name="add_staff_success_button">Kembali ke Manajemen Tim</string>
+    <string name="add_staff_error_failed">Gagal menambahkan staf</string>
+
+    <!-- Content Descriptions & Misc Icons -->
+    <string name="cd_back">Kembali</string>
+    <string name="cd_logo">Logo FlowShip</string>
+    <string name="cd_notifications">Notifikasi</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_option">Option</string>
+    <string name="cd_invite_staff">Undang Staf</string>
+    <string name="cd_selected">Dipilih</string>
+
+    <!-- App Exit Dialog -->
+    <string name="dialog_exit_title">Keluar Aplikasi</string>
+    <string name="dialog_exit_message">Apakah Anda yakin ingin keluar dari FlowShip?</string>
+    <string name="dialog_exit_confirm">Ya, Keluar</string>
+    <string name="dialog_exit_cancel">Batal</string>
+</resources>

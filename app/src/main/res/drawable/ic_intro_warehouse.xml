@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100.0"
+    android:viewportHeight="100.0">
+
+    <!-- Right Wall (Shadow Side) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M36,60 L84,36 L84,61 L36,85 Z"/>
+
+    <!-- Left Wall (Lit Side) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M12,48 L36,60 L36,85 L12,73 Z"/>
+
+    <!-- Roof Face -->
+    <path
+        android:fillColor="#FF5B00"
+        android:pathData="M12,48 L36,60 L84,36 L60,24 Z"/>
+
+    <!-- Roof Trims -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M12,48 L36,60 L36,62 L12,50 Z"/>
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M36,60 L84,36 L84,38 L36,62 Z"/>
+
+    <!-- Skylight Windows -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M30,45 L42,51 L50,47 L38,41 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M48,36 L60,42 L68,38 L56,32 Z"/>
+
+    <!-- Loading Dock Shutter 1 -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M44,69 L56,63 L56,75 L44,81 Z"/>
+
+    <!-- Loading Dock Shutter 2 -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M64,59 L76,53 L76,65 L64,71 Z"/>
+
+</vector>

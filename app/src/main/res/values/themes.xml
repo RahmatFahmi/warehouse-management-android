@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme Utama Aplikasi -->
+    <style name="Theme.Project1" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Theme Khusus Splash Screen -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Background warna utama aplikasi (Full Orange) -->
+        <item name="windowSplashScreenBackground">@color/brand_orange</item>
+
+        <!-- Logo di tengah (Warna Putih) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <!-- Pastikan tidak ada warna latar belakang icon tambahan agar bersih -->
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+
+        <!-- Status bar seragam dengan background -->
+        <item name="android:statusBarColor">@color/brand_orange</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Theme utama setelah splash selesai -->
+        <item name="postSplashScreenTheme">@style/Theme.Project1</item>
+    </style>
+
+</resources>
